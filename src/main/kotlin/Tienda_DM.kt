@@ -29,7 +29,7 @@ class Tienda_DM(): Cliente{
     }
 
     override fun aplicarDescuento(producto: Producto): Int {
-        TODO("Not yet implemented")
+        return producto.obtenerDescuento()
     }
 
     override fun pagar(cantidad: Float): Boolean {
